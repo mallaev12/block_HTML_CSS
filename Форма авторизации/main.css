@@ -1,0 +1,68 @@
+html,body{
+    background-color: #D3D3D3;
+    height: 100%;
+    color: #666;
+    font-family: Times;
+}
+.auth{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+    background-color: white;
+}
+h2{
+    padding-bottom: 15px;
+}
+.text {
+    text-transform: uppercase;
+}
+.text_input{
+    width: 300px;
+    height: 30px;
+}
+.password {
+	position: relative;
+}
+.password_control{
+    position: absolute;
+	top: 11px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+    background: url(img/view.png) 0 0 no-repeat;
+}
+.bottom{
+    font-size: 13px;
+    color: #666;
+    
+}
+
+input[type=checkbox]{
+    text-align: center;
+}
+
+.forgot_password{
+    text-decoration: none;
+    color: #666;
+    float: right;
+}
+input[type=submit] {
+    vertical-align: top;
+    margin-top: 3px;
+    color: white;
+    width: 105px;
+    height: 40px;
+    background:#212121; 
+    outline: none;
+    border-radius: 20px; 
+}
